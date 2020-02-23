@@ -1,4 +1,4 @@
-# sameday
+# samedaycustom
 
 ## Project setup
 ```
