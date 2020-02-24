@@ -1,0 +1,24 @@
+.dashboard-img svg .a, .dashboard-img svg .c{
+    fill:none;
+}
+.dashboard-img svg .a{stroke:#fff;stroke-width:2px;}
+.dashboard-img svg .b{stroke:none;}
+.dashboard-img.file svg .b{stroke:#fff; fill: none;}
+.dashboard-img.cart svg .a, .dashboard-img.supply svg .a, .dashboard-img.chat svg .a{fill:#fff; stroke: 1px;}
+
+#sidebar ul li.nav-item a.nav-link:hover .dashboard-img svg .a,
+#sidebar ul li.nav-item a.nav-link:hover .dashboard-img.file svg .b,
+#sidebar ul li.nav-item a.nav-link.active .dashboard-img svg .a,
+#sidebar ul li.nav-item a.nav-link.active .dashboard-img.file svg .b{
+    stroke: #2268D8;
+    transition: .3s ease-in-out;
+}
+#sidebar ul li.nav-item a.nav-link:hover .dashboard-img.cart svg .a, 
+#sidebar ul li.nav-item a.nav-link:hover .dashboard-img.supply svg .a, 
+#sidebar ul li.nav-item a.nav-link:hover .dashboard-img.chat svg .a,
+#sidebar ul li.nav-item a.nav-link.active .dashboard-img.cart svg .a, 
+#sidebar ul li.nav-item a.nav-link.active .dashboard-img.supply svg .a, 
+#sidebar ul li.nav-item a.nav-link.active .dashboard-img.chat svg .a{
+    fill: #2268D8;
+    transition: .3s ease-in-out;
+}
