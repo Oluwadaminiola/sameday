@@ -1,3 +1,7 @@
+a,a:hover{
+    text-decoration: none;
+}
+
 /* colours */
 .fc-bl{
     color: #007BFF;
@@ -41,3 +45,5 @@
 .fs-12{
     font-size: 12px;
 }
+
+

@@ -5,6 +5,13 @@
           <p class="fc-bl fs-20">
               <b>Download App</b>
           </p>
+
+          <button class="btn btn-app">
+              <img src="../../public/apple.svg" height="25px" alt="">
+          </button>
+          <button class="btn btn-app ml-3">
+              <img src="../../public/google-play-store.svg" height="25px" alt="">
+          </button>
       </div>
       <div class="col-lg-6">
         <p class="fc-gy" >
@@ -15,7 +22,7 @@
             gubergren, no sea takimata sanctus est Lorem ipsum dolor sit 
             amet. Lorem ipsum dolor sit amet, consetetur
         </p>
-        <div class="d-flex justify-content-between">
+        <div class="d-flex row justify-content-between">
             <a href="#" class="fc-bl fs-18">
                 Lorem ipsum dolor
             </a>
@@ -31,6 +38,17 @@
           <p class="fc-bl fs-18">
               <b>Connect with Us</b>
           </p>
+          <div class="d-flex justify-content-between">
+              <a href="#">
+                  <img src="../../public/twitter.svg" height="25px" alt="">
+              </a>
+              <a href="#">
+                  <img src="../../public/facebook.svg" height="25px" alt="">
+              </a>
+              <a href="#">
+                  <img src="../../public/instagram.svg" height="25px" alt="">
+              </a>
+          </div>
       </div>
     </div>
   </div>

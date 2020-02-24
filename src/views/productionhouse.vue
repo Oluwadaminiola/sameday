@@ -25,9 +25,9 @@
 
           <div class="input-group search-form ml-3">
             <div class="input-group-prepend pl-3 pt-2">
-              <img src="../../public/magnifying-glass.svg" height="19px" alt="">
+              <img src="../../public/magnifying-glass.svg" height="19px" alt />
             </div>
-            <input class="form-control" type="text">
+            <input class="form-control" type="text" />
             <div class="input-group-append pt-1 pr-2">
               <a href="#">
                 <small class="fc-gy fs-12">X</small>
@@ -55,6 +55,7 @@
           </li>
           <div class="ml-auto">
             <div class="d-flex justify-content-end">
+              
               <button class="btn btn-white">Print Worksheet</button>
               <div class="mx-3">
                 <select name id class="form-select">
@@ -163,9 +164,9 @@
 <script>
 export default {
   methods: {
-    gotoorder(){
-      router.push('/production')
+    gotoorder() {
+      router.push({ path: '/order' })
     }
   }
-}
+};
 </script>

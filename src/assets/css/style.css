@@ -38,13 +38,16 @@ body{
   font-size: 24px;
   width: 100%;
   padding-left: 47px;
-  padding-top: 15px; 
-  padding-bottom: 15px;
+  padding-top: 11px; 
+  padding-bottom: 11px;
   line-height: 22px;
   font: Helvetica Neue;
   letter-spacing: 1.5px;
   color: #FFFFFF !important;
   transition: .3s ease-in-out;
+}
+#sidebar ul.main-menu{
+  height: 80vh;
 }
 #sidebar .border-bottom{
   border-bottom: 1px solid #0143AD !important;
@@ -146,14 +149,14 @@ body{
 
 /*content start*/
 
-#content, #topnav{
+#content{
   margin-left: +300px !important;
   transition: margin-left .5s;
   /* width: 100%; */
 }
 #content{
   width: 100%;
-  padding-top: 120px;
+  /* padding-top: 120px; */
   background: #fcfcfc;
 }
 
@@ -166,7 +169,7 @@ body{
 
 /*ccontent active*/
 
-#content.active, #topnav.active{
+#content.active{
   margin-left: +80px !important;
   transition: margin-left .5s;
 }
@@ -241,6 +244,26 @@ table.table.product-table tbody tr{
 }.btn-grey:hover{
   border: 1px solid #000;
 }
+.btn-app{
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background: #E6E6E6;
+  transition: .3s ease-in-out;
+}.btn-app:hover{
+  border: 1px solid #707070;
+}
+.btn-back{
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background: #007BFF;
+  color: #fff;
+  transition: .3s ease-in-out;
+}.btn-back:hover{
+  transform: scale(1.05);
+  color: #fff;
+}
 
 
 
@@ -265,6 +288,18 @@ table.table.product-table tbody tr{
   border: none;
   box-shadow: none;
 }
+.blue-selectform{
+  background: #007BFF;
+  border: 1px solid #007bff;
+  color: #fff;
+  border-radius: 8px;
+  height: 35px;
+}.blue-selectform option{
+  background: #fff;
+  color: #000;
+  border: none !important;
+}
+
 
 
 .custom-control-input:checked ~ .custom-control-label::before {
@@ -290,4 +325,20 @@ table.table.product-table tbody tr{
 
 .bg-grey{
   background: #EEEEEE;
+}
+
+.dropdown-menu.worksheet{
+  border-radius: 0;
+  max-width: 120px !important;
+  border: none;
+  box-shadow: 0px 3px 50px #00000007;
+}.dropdown-menu.worksheet a{
+  font-size: 14px;
+  color: #707070;
+}
+.profile-img{
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border: 1px solid #007AFE;
 }

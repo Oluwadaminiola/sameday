@@ -28,14 +28,14 @@ let router = new VueRouter({
       component: Layout,
       children: [
         {
-          path: 'production',
+          path: '',
           name: 'production',
           components: {
             default: () => import('../views/productionhouse'), 
             Topnav: () => import('../components/topnav'),
             Footer: () => import('../components/footer')
           }
-        },
+        }, 
         {
           path: 'order',
           name: 'order',
