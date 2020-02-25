@@ -3,7 +3,7 @@
     <div class="row">
       <!-- production -->
       <div class="col-12 mb-4">
-        <router-link to="/production" class="border-right pr-2">
+        <router-link to="/" class="border-right pr-2">
           <button class="btn btn-back">
             <i class="fas fa-arrow-left"></i>
           </button>
