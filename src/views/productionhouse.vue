@@ -487,7 +487,7 @@
 export default {
   methods: {
     gotoorder() {
-      this.router.push("/order");
+      this.$router.push("/order");
     }
   }
 };
