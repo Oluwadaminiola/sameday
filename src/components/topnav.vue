@@ -69,17 +69,20 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item pt-3 active">
-              <a class="nav-link" href="#">
-                Home
-              </a>
+              <form action>
+                  <input type="search" placeholder="search" />
+                  <i class="fa fa-search"></i>
+                </form>
             </li>
             <li class="nav-item pt-3">
-              <a class="nav-link" href="#"><img src="../../public/mail.svg" height="16px" alt=""> Messages</a>
+              <a class="nav-link border-left border-right" href="#">
+                <img src="../../public/mail.svg" height="16px" alt /> Messages
+              </a>
             </li>
-            
+
             <li class="nav-item pt-3 dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle border-right"
                 href="#"
                 id="navbarDropdownMenuLink"
                 role="button"
@@ -87,8 +90,9 @@
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-              <img src="../../public/shopping-cart (1).svg" height="20px" alt="">
-              Market Place</a>
+                <img src="../../public/shopping-cart (1).svg" height="20px" alt />
+                Market Place
+              </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">Action</a>
                 <a class="dropdown-item" href="#">Another action</a>
@@ -96,13 +100,13 @@
               </div>
             </li>
             <li class="nav-item pt-3">
-              <a class="nav-link" href="#"><i class="fas fa-align-left"></i> Notifications</a>
+              <a class="nav-link border-right" href="#">
+                <i class="fas fa-align-left"></i> Notifications
+              </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <div class="profile-img">
-
-                </div>
+                <div class="profile-img"></div>
               </a>
             </li>
           </ul>

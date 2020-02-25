@@ -28,7 +28,7 @@ body{
   height: 100vh;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
   box-shadow: 0px 3px 50px #0000001F;
-  transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out !important;
   z-index: 9999;
 }
 
@@ -79,6 +79,8 @@ body{
   min-width: 80px;
   max-width: 80px;
   text-align: center;
+  transition: 0.5s ease-in-out !important;
+
 }
 #sidebar.active .dashboard-text{
   display: none !important;
@@ -207,6 +209,10 @@ table.table.product-table tbody tr td{
 }
 table.table.product-table tbody tr{
   box-shadow: 0px 3px 50px #007BFF00 !important;
+  transition: .3s ease-in-out;
+}
+table.table.product-table tbody tr:hover{
+  box-shadow: 0px 3px 50px #1877FF1C !important;
 }
 
 
@@ -216,6 +222,7 @@ table.table.product-table tbody tr{
   font-size: 16px;
   border-radius: 0;
   border: none;
+  padding-bottom: 15px;
   transition: .3s ease-in-out;
 }
 .production-tab a.nav-link.active{

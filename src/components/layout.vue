@@ -15,7 +15,7 @@
       <!-- menu -->
       <ul class="list-unstyled components mt-3 main-menu">
         <li class="nav-item mb-3">
-          <router-link to="/production" class="nav-link border-bottom">
+          <router-link to="/" class="nav-link border-bottom">
             <div class="d-flex">
               <div class="dashboard-img">
                 <svg
@@ -72,12 +72,11 @@
           </router-link>
         </li>
         <li class="nav-item border-bottom mb-3">
-          <router-link
-            to="/production"
+          <a
             href="#pageSubmenu"
             data-toggle="collapse"
             class="nav-link"
-            :class="{'active': $route.path == '/dashboard'}"
+            :class="{'active': $route.path == '/' || $route.path == '/order'}"
           >
             <div class="d-flex">
               <div class="dashboard-img">
@@ -132,13 +131,13 @@
                 <span class="float-right"></span>
               </small>
             </div>
-          </router-link>
+          </a>
           <ul class="collapse list-unstyled" id="pageSubmenu">
             <li class="nav-item">
-              <router-link to="/order" class="nav-link">Orders</router-link>
+              <router-link to="/order" :class="{'active': $route.path == '/order'}" class="nav-link">Orders</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/production" class="nav-link">Production House</router-link>
+              <router-link to="/production" :class="{'active': $route.path == '/'}" class="nav-link">Production House</router-link>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link">Bids</a>
